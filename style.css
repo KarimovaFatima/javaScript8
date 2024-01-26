@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eceffa;
+}
+
+#calculator{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #364c73;
+    border-radius: 6px; 
+    background-color: #dae0fd;
+}
+
+#answer-data{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    height: 250px;
+    border: 3px solid #364c73;
+    border-radius: 6px; 
+    background-color: #dae0fd;
+    margin-left: 20px;
+    
+}
+
+#answer{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    color: #214075;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#answer-text{
+    text-align: center;
+    color: #051633;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#text{
+    text-align: center;
+    color: #051633;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#addition{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #364c73;
+    border-radius: 6px;
+    background-color: #7a98cd;
+    color: #ffe3ff;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 55px;   
+}
+
+#subtraction{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #364c73;
+    border-radius: 6px;
+    background-color: #68a452;
+    color: #ffe3ff;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 55px; 
+}
+
+#multiplication{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #364c73;
+    border-radius: 6px;
+    background-color: #52a46b;
+    color: #ffe3ff;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 55px; 
+    margin-top: 40px;
+}
+
+#division{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #364c73;
+    border-radius: 6px;
+    background-color: #528da4;
+    color: #ffe3ff;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 55px; 
+    margin-top: 40px;
+}
